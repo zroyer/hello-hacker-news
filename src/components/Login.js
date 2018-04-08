@@ -52,10 +52,6 @@ class Login extends Component {
     )
   }
 
-  _confirm = async () => {
-    // ... you'll implement this in a bit
-  }
-
   _saveUserData = token => {
     localStorage.setItem(AUTH_TOKEN, token)
   }
